@@ -1,0 +1,746 @@
+Multivariate ld-score regression of 12 traits (A1C.sumstats.gz CAD.sumstats.gz CDM.sumstats.gz FG.sumstats.gz FIN.sumstats.gz GLU2H.sumstats.gz IFC.sumstats.gz ISCH.sumstats.gz LAR.sumstats.gz STROKE.sumstats.gz SV.sumstats.gz T2D.sumstats.gz) began at: 2024-05-19 20:21:10.823249
+Reading in LD scores
+Read in summary statistics [1/12] from: A1C.sumstats.gz
+Out of 43484 SNPs, 5321 remain after merging with LD-score files
+Removing 1 SNPs with Chi^2 > 146.806; 5320 remain
+Read in summary statistics [2/12] from: CAD.sumstats.gz
+Out of 143893 SNPs, 11605 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 181.509; 11605 remain
+Read in summary statistics [3/12] from: CDM.sumstats.gz
+Out of 34033 SNPs, 5132 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 5132 remain
+Read in summary statistics [4/12] from: FG.sumstats.gz
+Out of 43490 SNPs, 5321 remain after merging with LD-score files
+Removing 1 SNPs with Chi^2 > 200.622; 5320 remain
+Read in summary statistics [5/12] from: FIN.sumstats.gz
+Out of 43490 SNPs, 5321 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 151.013; 5321 remain
+Read in summary statistics [6/12] from: GLU2H.sumstats.gz
+Out of 43486 SNPs, 5321 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 5321 remain
+Read in summary statistics [7/12] from: IFC.sumstats.gz
+Out of 48453 SNPs, 5357 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 5357 remain
+Read in summary statistics [8/12] from: ISCH.sumstats.gz
+Out of 38574 SNPs, 5229 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 229.297251302797; 5229 remain
+Read in summary statistics [9/12] from: LAR.sumstats.gz
+Out of 29333 SNPs, 4862 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 4862 remain
+Read in summary statistics [10/12] from: STROKE.sumstats.gz
+Out of 38792 SNPs, 5234 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 253.823019734644; 5234 remain
+Read in summary statistics [11/12] from: SV.sumstats.gz
+Out of 30423 SNPs, 4944 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 4944 remain
+Read in summary statistics [12/12] from: T2D.sumstats.gz
+Out of 41239 SNPs, 5268 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 226.119996313002; 5268 remain
+          
+Estimating heritability [1/78] for: A1C.sumstats.gz
+Heritability Results for trait: A1C.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1422
+Lambda GC: 1.0849
+Intercept: 1.0863 (0.0815)
+Ratio: 0.6068 (0.5732)
+Total Observed Scale h2: 0.0372 (0.0371)
+h2 Z: 1
+     
+Calculating genetic covariance [2/78] for traits: A1C.sumstats.gz and CAD.sumstats.gz
+5313 SNPs remain after merging A1C.sumstats.gz and CAD.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and CAD.sumstats.gz
+Mean Z*Z: 0.0759
+Cross trait Intercept: -0.0283 (0.0557)
+Total Observed Scale Genetic Covariance (g_cov): 0.0451 (0.0306)
+g_cov Z: 1.47
+g_cov P-value: 0.14072
+     
+Calculating genetic covariance [3/78] for traits: A1C.sumstats.gz and CDM.sumstats.gz
+5129 SNPs remain after merging A1C.sumstats.gz and CDM.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and CDM.sumstats.gz
+Mean Z*Z: 0.0126
+Cross trait Intercept: 0.0072 (0.0474)
+Total Observed Scale Genetic Covariance (g_cov): 0.0084 (0.0513)
+g_cov Z: 0.163
+g_cov P-value: 0.87063
+     
+Calculating genetic covariance [4/78] for traits: A1C.sumstats.gz and FG.sumstats.gz
+5320 SNPs remain after merging A1C.sumstats.gz and FG.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and FG.sumstats.gz
+Mean Z*Z: 0.2415
+Cross trait Intercept: 0.069 (0.0544)
+Total Observed Scale Genetic Covariance (g_cov): 0.0762 (0.0274)
+g_cov Z: 2.78
+g_cov P-value: 0.0055055
+     
+Calculating genetic covariance [5/78] for traits: A1C.sumstats.gz and FIN.sumstats.gz
+5320 SNPs remain after merging A1C.sumstats.gz and FIN.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and FIN.sumstats.gz
+Mean Z*Z: 0.045
+Cross trait Intercept: 0.0599 (0.0443)
+Total Observed Scale Genetic Covariance (g_cov): -0.0083 (0.0271)
+g_cov Z: -0.307
+g_cov P-value: 0.75921
+     
+Calculating genetic covariance [6/78] for traits: A1C.sumstats.gz and GLU2H.sumstats.gz
+5320 SNPs remain after merging A1C.sumstats.gz and GLU2H.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and GLU2H.sumstats.gz
+Mean Z*Z: 0.0327
+Cross trait Intercept: -0.0043 (0.0441)
+Total Observed Scale Genetic Covariance (g_cov): 0.0293 (0.0386)
+g_cov Z: 0.759
+g_cov P-value: 0.44757
+     
+Calculating genetic covariance [7/78] for traits: A1C.sumstats.gz and IFC.sumstats.gz
+5272 SNPs remain after merging A1C.sumstats.gz and IFC.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and IFC.sumstats.gz
+Mean Z*Z: 0.0109
+Cross trait Intercept: 0.0145 (0.0433)
+Total Observed Scale Genetic Covariance (g_cov): -9e-04 (0.0359)
+g_cov Z: -0.0251
+g_cov P-value: 0.97994
+     
+Calculating genetic covariance [8/78] for traits: A1C.sumstats.gz and ISCH.sumstats.gz
+5219 SNPs remain after merging A1C.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: -0.0585
+Cross trait Intercept: 0.0116 (0.0519)
+Total Observed Scale Genetic Covariance (g_cov): -0.0254 (0.0189)
+g_cov Z: -1.34
+g_cov P-value: 0.17879
+     
+Calculating genetic covariance [9/78] for traits: A1C.sumstats.gz and LAR.sumstats.gz
+4861 SNPs remain after merging A1C.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: -0.0827
+Cross trait Intercept: 0.0561 (0.0499)
+Total Observed Scale Genetic Covariance (g_cov): -0.1813 (0.0671)
+g_cov Z: -2.7
+g_cov P-value: 0.0069146
+     
+Calculating genetic covariance [10/78] for traits: A1C.sumstats.gz and STROKE.sumstats.gz
+5222 SNPs remain after merging A1C.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: -0.0509
+Cross trait Intercept: 0.0231 (0.054)
+Total Observed Scale Genetic Covariance (g_cov): -0.0262 (0.0192)
+g_cov Z: -1.36
+g_cov P-value: 0.1739
+     
+Calculating genetic covariance [11/78] for traits: A1C.sumstats.gz and SV.sumstats.gz
+4943 SNPs remain after merging A1C.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: -0.0137
+Cross trait Intercept: -0.0061 (0.0477)
+Total Observed Scale Genetic Covariance (g_cov): -0.0085 (0.0655)
+g_cov Z: -0.129
+g_cov P-value: 0.89697
+     
+Calculating genetic covariance [12/78] for traits: A1C.sumstats.gz and T2D.sumstats.gz
+5245 SNPs remain after merging A1C.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: A1C.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.2115
+Cross trait Intercept: 0.0447 (0.0478)
+Total Observed Scale Genetic Covariance (g_cov): 0.0613 (0.0245)
+g_cov Z: 2.5
+g_cov P-value: 0.012398
+          
+Estimating heritability [13/78] for: CAD.sumstats.gz
+Heritability Results for trait: CAD.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.3055
+Lambda GC: 1.2942
+Intercept: 1.0138 (0.0626)
+Ratio: 0.0451 (0.2049)
+Total Observed Scale h2: 0.0982 (0.0327)
+h2 Z: 3
+     
+Calculating genetic covariance [14/78] for traits: CAD.sumstats.gz and CDM.sumstats.gz
+5132 SNPs remain after merging CAD.sumstats.gz and CDM.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and CDM.sumstats.gz
+Mean Z*Z: 9e-04
+Cross trait Intercept: -0.0015 (0.0453)
+Total Observed Scale Genetic Covariance (g_cov): 0.0076 (0.0483)
+g_cov Z: 0.158
+g_cov P-value: 0.87466
+     
+Calculating genetic covariance [15/78] for traits: CAD.sumstats.gz and FG.sumstats.gz
+5313 SNPs remain after merging CAD.sumstats.gz and FG.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and FG.sumstats.gz
+Mean Z*Z: -0.0073
+Cross trait Intercept: 0.0475 (0.051)
+Total Observed Scale Genetic Covariance (g_cov): -0.0243 (0.0238)
+g_cov Z: -1.02
+g_cov P-value: 0.30704
+     
+Calculating genetic covariance [16/78] for traits: CAD.sumstats.gz and FIN.sumstats.gz
+5314 SNPs remain after merging CAD.sumstats.gz and FIN.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and FIN.sumstats.gz
+Mean Z*Z: 0.0233
+Cross trait Intercept: 0.0453 (0.0514)
+Total Observed Scale Genetic Covariance (g_cov): -0.0047 (0.0332)
+g_cov Z: -0.142
+g_cov P-value: 0.88692
+     
+Calculating genetic covariance [17/78] for traits: CAD.sumstats.gz and GLU2H.sumstats.gz
+5314 SNPs remain after merging CAD.sumstats.gz and GLU2H.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and GLU2H.sumstats.gz
+Mean Z*Z: 0.0611
+Cross trait Intercept: -0.0273 (0.0462)
+Total Observed Scale Genetic Covariance (g_cov): 0.0658 (0.0386)
+g_cov Z: 1.7
+g_cov P-value: 0.088751
+     
+Calculating genetic covariance [18/78] for traits: CAD.sumstats.gz and IFC.sumstats.gz
+5355 SNPs remain after merging CAD.sumstats.gz and IFC.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and IFC.sumstats.gz
+Mean Z*Z: 0.0471
+Cross trait Intercept: 0.0164 (0.0477)
+Total Observed Scale Genetic Covariance (g_cov): 0.0224 (0.0433)
+g_cov Z: 0.517
+g_cov P-value: 0.60513
+     
+Calculating genetic covariance [19/78] for traits: CAD.sumstats.gz and ISCH.sumstats.gz
+5229 SNPs remain after merging CAD.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: 0.1058
+Cross trait Intercept: 0.0195 (0.047)
+Total Observed Scale Genetic Covariance (g_cov): 0.0284 (0.0166)
+g_cov Z: 1.71
+g_cov P-value: 0.087418
+     
+Calculating genetic covariance [20/78] for traits: CAD.sumstats.gz and LAR.sumstats.gz
+4862 SNPs remain after merging CAD.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: 0.0643
+Cross trait Intercept: 9e-04 (0.0495)
+Total Observed Scale Genetic Covariance (g_cov): 0.073 (0.0684)
+g_cov Z: 1.07
+g_cov P-value: 0.28586
+     
+Calculating genetic covariance [21/78] for traits: CAD.sumstats.gz and STROKE.sumstats.gz
+5234 SNPs remain after merging CAD.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: 0.0938
+Cross trait Intercept: 0.0309 (0.047)
+Total Observed Scale Genetic Covariance (g_cov): 0.0198 (0.0162)
+g_cov Z: 1.22
+g_cov P-value: 0.22155
+     
+Calculating genetic covariance [22/78] for traits: CAD.sumstats.gz and SV.sumstats.gz
+4944 SNPs remain after merging CAD.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.0458
+Cross trait Intercept: 0.1321 (0.0626)
+Total Observed Scale Genetic Covariance (g_cov): -0.1061 (0.0756)
+g_cov Z: -1.4
+g_cov P-value: 0.16058
+     
+Calculating genetic covariance [23/78] for traits: CAD.sumstats.gz and T2D.sumstats.gz
+5268 SNPs remain after merging CAD.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: CAD.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.3278
+Cross trait Intercept: 0.0156 (0.0574)
+Total Observed Scale Genetic Covariance (g_cov): 0.0959 (0.0308)
+g_cov Z: 3.12
+g_cov P-value: 0.0018324
+          
+Estimating heritability [24/78] for: CDM.sumstats.gz
+Heritability Results for trait: CDM.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1231
+Lambda GC: 1.1734
+Intercept: 1.006 (0.0665)
+Ratio: 0.0483 (0.5399)
+Total Observed Scale h2: 0.2499 (0.1533)
+h2 Z: 1.63
+     
+Calculating genetic covariance [25/78] for traits: CDM.sumstats.gz and FG.sumstats.gz
+5129 SNPs remain after merging CDM.sumstats.gz and FG.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and FG.sumstats.gz
+Mean Z*Z: -0.0228
+Cross trait Intercept: -0.0106 (0.0591)
+Total Observed Scale Genetic Covariance (g_cov): -0.0136 (0.0546)
+g_cov Z: -0.249
+g_cov P-value: 0.80311
+     
+Calculating genetic covariance [26/78] for traits: CDM.sumstats.gz and FIN.sumstats.gz
+5130 SNPs remain after merging CDM.sumstats.gz and FIN.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and FIN.sumstats.gz
+Mean Z*Z: 0.0289
+Cross trait Intercept: 0.018 (0.0409)
+Total Observed Scale Genetic Covariance (g_cov): 0.017 (0.0519)
+g_cov Z: 0.328
+g_cov P-value: 0.74309
+     
+Calculating genetic covariance [27/78] for traits: CDM.sumstats.gz and GLU2H.sumstats.gz
+5130 SNPs remain after merging CDM.sumstats.gz and GLU2H.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and GLU2H.sumstats.gz
+Mean Z*Z: 0.0161
+Cross trait Intercept: -0.0587 (0.0412)
+Total Observed Scale Genetic Covariance (g_cov): 0.1263 (0.0844)
+g_cov Z: 1.5
+g_cov P-value: 0.13451
+     
+Calculating genetic covariance [28/78] for traits: CDM.sumstats.gz and IFC.sumstats.gz
+5132 SNPs remain after merging CDM.sumstats.gz and IFC.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and IFC.sumstats.gz
+Mean Z*Z: 0.0054
+Cross trait Intercept: -0.0482 (0.0405)
+Total Observed Scale Genetic Covariance (g_cov): 0.0837 (0.0728)
+g_cov Z: 1.15
+g_cov P-value: 0.24978
+     
+Calculating genetic covariance [29/78] for traits: CDM.sumstats.gz and ISCH.sumstats.gz
+5130 SNPs remain after merging CDM.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: 0.5054
+Cross trait Intercept: 0.45 (0.0499)
+Total Observed Scale Genetic Covariance (g_cov): 0.0416 (0.0399)
+g_cov Z: 1.04
+g_cov P-value: 0.29634
+     
+Calculating genetic covariance [30/78] for traits: CDM.sumstats.gz and LAR.sumstats.gz
+4860 SNPs remain after merging CDM.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: 0.1587
+Cross trait Intercept: 0.1194 (0.0402)
+Total Observed Scale Genetic Covariance (g_cov): 0.1003 (0.1228)
+g_cov Z: 0.816
+g_cov P-value: 0.41435
+     
+Calculating genetic covariance [31/78] for traits: CDM.sumstats.gz and STROKE.sumstats.gz
+5130 SNPs remain after merging CDM.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: 0.4765
+Cross trait Intercept: 0.4461 (0.0492)
+Total Observed Scale Genetic Covariance (g_cov): 0.0222 (0.0375)
+g_cov Z: 0.593
+g_cov P-value: 0.55326
+     
+Calculating genetic covariance [32/78] for traits: CDM.sumstats.gz and SV.sumstats.gz
+4942 SNPs remain after merging CDM.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.0488
+Cross trait Intercept: 0.042 (0.0529)
+Total Observed Scale Genetic Covariance (g_cov): 0.0487 (0.1533)
+g_cov Z: 0.318
+g_cov P-value: 0.75065
+     
+Calculating genetic covariance [33/78] for traits: CDM.sumstats.gz and T2D.sumstats.gz
+5128 SNPs remain after merging CDM.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: CDM.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.057
+Cross trait Intercept: 0.0392 (0.0485)
+Total Observed Scale Genetic Covariance (g_cov): 0.0168 (0.0467)
+g_cov Z: 0.359
+g_cov P-value: 0.71931
+          
+Estimating heritability [34/78] for: FG.sumstats.gz
+Heritability Results for trait: FG.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.2552
+Lambda GC: 1.0311
+Intercept: 1.1632 (0.108)
+Ratio: 0.6395 (0.4233)
+Total Observed Scale h2: 0.0341 (0.0702)
+h2 Z: 0.486
+     
+Calculating genetic covariance [35/78] for traits: FG.sumstats.gz and FIN.sumstats.gz
+5320 SNPs remain after merging FG.sumstats.gz and FIN.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and FIN.sumstats.gz
+Mean Z*Z: 0.2112
+Cross trait Intercept: 0.1708 (0.0562)
+Total Observed Scale Genetic Covariance (g_cov): 0.0157 (0.0373)
+g_cov Z: 0.421
+g_cov P-value: 0.67384
+     
+Calculating genetic covariance [36/78] for traits: FG.sumstats.gz and GLU2H.sumstats.gz
+5320 SNPs remain after merging FG.sumstats.gz and GLU2H.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and GLU2H.sumstats.gz
+Mean Z*Z: 0.1978
+Cross trait Intercept: 0.0874 (0.0508)
+Total Observed Scale Genetic Covariance (g_cov): 0.0801 (0.048)
+g_cov Z: 1.67
+g_cov P-value: 0.095024
+     
+Calculating genetic covariance [37/78] for traits: FG.sumstats.gz and IFC.sumstats.gz
+5272 SNPs remain after merging FG.sumstats.gz and IFC.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and IFC.sumstats.gz
+Mean Z*Z: 0.0344
+Cross trait Intercept: 0.0809 (0.0551)
+Total Observed Scale Genetic Covariance (g_cov): -0.0346 (0.0426)
+g_cov Z: -0.813
+g_cov P-value: 0.4165
+     
+Calculating genetic covariance [38/78] for traits: FG.sumstats.gz and ISCH.sumstats.gz
+5219 SNPs remain after merging FG.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: -0.0085
+Cross trait Intercept: 0.0681 (0.0551)
+Total Observed Scale Genetic Covariance (g_cov): -0.0239 (0.0187)
+g_cov Z: -1.28
+g_cov P-value: 0.20158
+     
+Calculating genetic covariance [39/78] for traits: FG.sumstats.gz and LAR.sumstats.gz
+4861 SNPs remain after merging FG.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: -0.0149
+Cross trait Intercept: -0.0721 (0.0536)
+Total Observed Scale Genetic Covariance (g_cov): 0.0701 (0.0652)
+g_cov Z: 1.07
+g_cov P-value: 0.28274
+     
+Calculating genetic covariance [40/78] for traits: FG.sumstats.gz and STROKE.sumstats.gz
+5222 SNPs remain after merging FG.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: -0.0033
+Cross trait Intercept: 0.0719 (0.0598)
+Total Observed Scale Genetic Covariance (g_cov): -0.0228 (0.0184)
+g_cov Z: -1.24
+g_cov P-value: 0.21432
+     
+Calculating genetic covariance [41/78] for traits: FG.sumstats.gz and SV.sumstats.gz
+4943 SNPs remain after merging FG.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: -0.0093
+Cross trait Intercept: 0.0145 (0.0518)
+Total Observed Scale Genetic Covariance (g_cov): -0.0181 (0.0593)
+g_cov Z: -0.306
+g_cov P-value: 0.75982
+     
+Calculating genetic covariance [42/78] for traits: FG.sumstats.gz and T2D.sumstats.gz
+5245 SNPs remain after merging FG.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: FG.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.2701
+Cross trait Intercept: 0.0879 (0.0651)
+Total Observed Scale Genetic Covariance (g_cov): 0.0636 (0.0378)
+g_cov Z: 1.68
+g_cov P-value: 0.09228
+          
+Estimating heritability [43/78] for: FIN.sumstats.gz
+Heritability Results for trait: FIN.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1662
+Lambda GC: 1.0831
+Intercept: 0.9768 (0.0827)
+Ratio: -0.1397 (0.4975)
+Total Observed Scale h2: 0.0979 (0.0559)
+h2 Z: 1.75
+     
+Calculating genetic covariance [44/78] for traits: FIN.sumstats.gz and GLU2H.sumstats.gz
+5321 SNPs remain after merging FIN.sumstats.gz and GLU2H.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and GLU2H.sumstats.gz
+Mean Z*Z: 0.0833
+Cross trait Intercept: 0.1077 (0.0409)
+Total Observed Scale Genetic Covariance (g_cov): -0.027 (0.0424)
+g_cov Z: -0.637
+g_cov P-value: 0.52411
+     
+Calculating genetic covariance [45/78] for traits: FIN.sumstats.gz and IFC.sumstats.gz
+5273 SNPs remain after merging FIN.sumstats.gz and IFC.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and IFC.sumstats.gz
+Mean Z*Z: 0.002
+Cross trait Intercept: 0.0011 (0.0477)
+Total Observed Scale Genetic Covariance (g_cov): -0.0055 (0.0546)
+g_cov Z: -0.101
+g_cov P-value: 0.91965
+     
+Calculating genetic covariance [46/78] for traits: FIN.sumstats.gz and ISCH.sumstats.gz
+5220 SNPs remain after merging FIN.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: 0.0839
+Cross trait Intercept: -0.0144 (0.0447)
+Total Observed Scale Genetic Covariance (g_cov): 0.0394 (0.0198)
+g_cov Z: 1.99
+g_cov P-value: 0.046136
+     
+Calculating genetic covariance [47/78] for traits: FIN.sumstats.gz and LAR.sumstats.gz
+4862 SNPs remain after merging FIN.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: 0.0211
+Cross trait Intercept: 0.0361 (0.0595)
+Total Observed Scale Genetic Covariance (g_cov): -0.0165 (0.0854)
+g_cov Z: -0.193
+g_cov P-value: 0.84697
+     
+Calculating genetic covariance [48/78] for traits: FIN.sumstats.gz and STROKE.sumstats.gz
+5223 SNPs remain after merging FIN.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: 0.0904
+Cross trait Intercept: -0.0305 (0.046)
+Total Observed Scale Genetic Covariance (g_cov): 0.0459 (0.019)
+g_cov Z: 2.42
+g_cov P-value: 0.015496
+     
+Calculating genetic covariance [49/78] for traits: FIN.sumstats.gz and SV.sumstats.gz
+4944 SNPs remain after merging FIN.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.0896
+Cross trait Intercept: 0.0561 (0.0411)
+Total Observed Scale Genetic Covariance (g_cov): 0.0449 (0.0579)
+g_cov Z: 0.776
+g_cov P-value: 0.43775
+     
+Calculating genetic covariance [50/78] for traits: FIN.sumstats.gz and T2D.sumstats.gz
+5246 SNPs remain after merging FIN.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: FIN.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.0178
+Cross trait Intercept: 0.0596 (0.0727)
+Total Observed Scale Genetic Covariance (g_cov): -0.016 (0.0443)
+g_cov Z: -0.362
+g_cov P-value: 0.71738
+          
+Estimating heritability [51/78] for: GLU2H.sumstats.gz
+Heritability Results for trait: GLU2H.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.0449
+Lambda GC: 1.0178
+Intercept: 0.95 (0.0621)
+Ratio: -1.1142 (1.3833)
+Total Observed Scale h2: 0.1319 (0.0893)
+h2 Z: 1.48
+     
+Calculating genetic covariance [52/78] for traits: GLU2H.sumstats.gz and IFC.sumstats.gz
+5273 SNPs remain after merging GLU2H.sumstats.gz and IFC.sumstats.gz summary statistics
+Results for genetic covariance between: GLU2H.sumstats.gz and IFC.sumstats.gz
+Mean Z*Z: 0.2998
+Cross trait Intercept: 0.2859 (0.0443)
+Total Observed Scale Genetic Covariance (g_cov): 0.0195 (0.0577)
+g_cov Z: 0.339
+g_cov P-value: 0.73463
+     
+Calculating genetic covariance [53/78] for traits: GLU2H.sumstats.gz and ISCH.sumstats.gz
+5220 SNPs remain after merging GLU2H.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: GLU2H.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: -0.0091
+Cross trait Intercept: -0.1114 (0.0426)
+Total Observed Scale Genetic Covariance (g_cov): 0.0619 (0.0287)
+g_cov Z: 2.16
+g_cov P-value: 0.030915
+     
+Calculating genetic covariance [54/78] for traits: GLU2H.sumstats.gz and LAR.sumstats.gz
+4862 SNPs remain after merging GLU2H.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: GLU2H.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: -0.0151
+Cross trait Intercept: -0.0534 (0.0432)
+Total Observed Scale Genetic Covariance (g_cov): 0.0799 (0.0941)
+g_cov Z: 0.849
+g_cov P-value: 0.39591
+     
+Calculating genetic covariance [55/78] for traits: GLU2H.sumstats.gz and STROKE.sumstats.gz
+5223 SNPs remain after merging GLU2H.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: GLU2H.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: -0.0252
+Cross trait Intercept: -0.1329 (0.0437)
+Total Observed Scale Genetic Covariance (g_cov): 0.0623 (0.028)
+g_cov Z: 2.23
+g_cov P-value: 0.026077
+     
+Calculating genetic covariance [56/78] for traits: GLU2H.sumstats.gz and SV.sumstats.gz
+4944 SNPs remain after merging GLU2H.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: GLU2H.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.0049
+Cross trait Intercept: -0.0544 (0.0493)
+Total Observed Scale Genetic Covariance (g_cov): 0.1218 (0.1001)
+g_cov Z: 1.22
+g_cov P-value: 0.2237
+     
+Calculating genetic covariance [57/78] for traits: GLU2H.sumstats.gz and T2D.sumstats.gz
+5246 SNPs remain after merging GLU2H.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: GLU2H.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.1451
+Cross trait Intercept: 0.0449 (0.0483)
+Total Observed Scale Genetic Covariance (g_cov): 0.0633 (0.0424)
+g_cov Z: 1.49
+g_cov P-value: 0.13602
+          
+Estimating heritability [58/78] for: IFC.sumstats.gz
+Heritability Results for trait: IFC.sumstats.gz
+Mean Chi^2 across remaining SNPs: 0.9713
+Lambda GC: 0.8733
+Intercept: 0.9802 (0.0613)
+Ratio: 0.6905 (-2.1342)
+Total Observed Scale h2: -0.0108 (0.0838)
+h2 Z: -0.129
+     
+Calculating genetic covariance [59/78] for traits: IFC.sumstats.gz and ISCH.sumstats.gz
+5229 SNPs remain after merging IFC.sumstats.gz and ISCH.sumstats.gz summary statistics
+Results for genetic covariance between: IFC.sumstats.gz and ISCH.sumstats.gz
+Mean Z*Z: -0.0148
+Cross trait Intercept: -0.0142 (0.0391)
+Total Observed Scale Genetic Covariance (g_cov): -7e-04 (0.0243)
+g_cov Z: -0.0284
+g_cov P-value: 0.97735
+     
+Calculating genetic covariance [60/78] for traits: IFC.sumstats.gz and LAR.sumstats.gz
+4862 SNPs remain after merging IFC.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: IFC.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: 0.0181
+Cross trait Intercept: 0.0232 (0.0375)
+Total Observed Scale Genetic Covariance (g_cov): -0.0105 (0.0774)
+g_cov Z: -0.136
+g_cov P-value: 0.8918
+     
+Calculating genetic covariance [61/78] for traits: IFC.sumstats.gz and STROKE.sumstats.gz
+5234 SNPs remain after merging IFC.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: IFC.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: -0.0239
+Cross trait Intercept: -4e-04 (0.0407)
+Total Observed Scale Genetic Covariance (g_cov): -0.0132 (0.0242)
+g_cov Z: -0.547
+g_cov P-value: 0.58426
+     
+Calculating genetic covariance [62/78] for traits: IFC.sumstats.gz and SV.sumstats.gz
+4944 SNPs remain after merging IFC.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: IFC.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: -0.0056
+Cross trait Intercept: -0.0754 (0.0502)
+Total Observed Scale Genetic Covariance (g_cov): 0.136 (0.0976)
+g_cov Z: 1.39
+g_cov P-value: 0.16356
+     
+Calculating genetic covariance [63/78] for traits: IFC.sumstats.gz and T2D.sumstats.gz
+5266 SNPs remain after merging IFC.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: IFC.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: -0.0328
+Cross trait Intercept: 0.0552 (0.0494)
+Total Observed Scale Genetic Covariance (g_cov): -0.0545 (0.0477)
+g_cov Z: -1.14
+g_cov P-value: 0.25377
+          
+Estimating heritability [64/78] for: ISCH.sumstats.gz
+Heritability Results for trait: ISCH.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.0497
+Lambda GC: 1.1096
+Intercept: 1.1252 (0.067)
+Ratio: 2.5196 (1.348)
+Total Observed Scale h2: -0.0198 (0.0167)
+h2 Z: -1.19
+     
+Calculating genetic covariance [65/78] for traits: ISCH.sumstats.gz and LAR.sumstats.gz
+4858 SNPs remain after merging ISCH.sumstats.gz and LAR.sumstats.gz summary statistics
+Results for genetic covariance between: ISCH.sumstats.gz and LAR.sumstats.gz
+Mean Z*Z: 0.3261
+Cross trait Intercept: 0.3692 (0.052)
+Total Observed Scale Genetic Covariance (g_cov): -0.0411 (0.0489)
+g_cov Z: -0.841
+g_cov P-value: 0.40046
+     
+Calculating genetic covariance [66/78] for traits: ISCH.sumstats.gz and STROKE.sumstats.gz
+5226 SNPs remain after merging ISCH.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: ISCH.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: 0.9809
+Cross trait Intercept: 1.0649 (0.0615)
+Total Observed Scale Genetic Covariance (g_cov): -0.0209 (0.0153)
+g_cov Z: -1.37
+g_cov P-value: 0.17206
+     
+Calculating genetic covariance [67/78] for traits: ISCH.sumstats.gz and SV.sumstats.gz
+4941 SNPs remain after merging ISCH.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: ISCH.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.3925
+Cross trait Intercept: 0.3553 (0.0548)
+Total Observed Scale Genetic Covariance (g_cov): 0.0383 (0.05)
+g_cov Z: 0.767
+g_cov P-value: 0.44334
+     
+Calculating genetic covariance [68/78] for traits: ISCH.sumstats.gz and T2D.sumstats.gz
+5223 SNPs remain after merging ISCH.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: ISCH.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.0819
+Cross trait Intercept: 0.0809 (0.0511)
+Total Observed Scale Genetic Covariance (g_cov): 0.0024 (0.0162)
+g_cov Z: 0.147
+g_cov P-value: 0.8834
+          
+Estimating heritability [69/78] for: LAR.sumstats.gz
+Heritability Results for trait: LAR.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.0056
+Lambda GC: 1.0235
+Intercept: 0.9778 (0.063)
+Ratio: -3.9712 (11.2721)
+Total Observed Scale h2: 0.0975 (0.2358)
+h2 Z: 0.414
+     
+Calculating genetic covariance [70/78] for traits: LAR.sumstats.gz and STROKE.sumstats.gz
+4858 SNPs remain after merging LAR.sumstats.gz and STROKE.sumstats.gz summary statistics
+Results for genetic covariance between: LAR.sumstats.gz and STROKE.sumstats.gz
+Mean Z*Z: 0.2908
+Cross trait Intercept: 0.3671 (0.0497)
+Total Observed Scale Genetic Covariance (g_cov): -0.0696 (0.0449)
+g_cov Z: -1.55
+g_cov P-value: 0.12083
+     
+Calculating genetic covariance [71/78] for traits: LAR.sumstats.gz and SV.sumstats.gz
+4836 SNPs remain after merging LAR.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: LAR.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.1013
+Cross trait Intercept: 0.1943 (0.0442)
+Total Observed Scale Genetic Covariance (g_cov): -0.3054 (0.1445)
+g_cov Z: -2.11
+g_cov P-value: 0.034594
+     
+Calculating genetic covariance [72/78] for traits: LAR.sumstats.gz and T2D.sumstats.gz
+4859 SNPs remain after merging LAR.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: LAR.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.0814
+Cross trait Intercept: 0.0986 (0.0464)
+Total Observed Scale Genetic Covariance (g_cov): -0.0192 (0.0618)
+g_cov Z: -0.311
+g_cov P-value: 0.75561
+          
+Estimating heritability [73/78] for: STROKE.sumstats.gz
+Heritability Results for trait: STROKE.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.0628
+Lambda GC: 1.0713
+Intercept: 1.1653 (0.0692)
+Ratio: 2.6309 (1.1015)
+Total Observed Scale h2: -0.0242 (0.0161)
+h2 Z: -1.5
+     
+Calculating genetic covariance [74/78] for traits: STROKE.sumstats.gz and SV.sumstats.gz
+4941 SNPs remain after merging STROKE.sumstats.gz and SV.sumstats.gz summary statistics
+Results for genetic covariance between: STROKE.sumstats.gz and SV.sumstats.gz
+Mean Z*Z: 0.3973
+Cross trait Intercept: 0.3558 (0.0561)
+Total Observed Scale Genetic Covariance (g_cov): 0.0396 (0.0498)
+g_cov Z: 0.794
+g_cov P-value: 0.42701
+     
+Calculating genetic covariance [75/78] for traits: STROKE.sumstats.gz and T2D.sumstats.gz
+5227 SNPs remain after merging STROKE.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: STROKE.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.0906
+Cross trait Intercept: 0.0845 (0.0528)
+Total Observed Scale Genetic Covariance (g_cov): 0.0032 (0.0157)
+g_cov Z: 0.201
+g_cov P-value: 0.84052
+          
+Estimating heritability [76/78] for: SV.sumstats.gz
+Heritability Results for trait: SV.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1653
+Lambda GC: 1.1774
+Intercept: 1.0761 (0.0665)
+Ratio: 0.4605 (0.4023)
+Total Observed Scale h2: 0.2952 (0.2342)
+h2 Z: 1.26
+     
+Calculating genetic covariance [77/78] for traits: SV.sumstats.gz and T2D.sumstats.gz
+4940 SNPs remain after merging SV.sumstats.gz and T2D.sumstats.gz summary statistics
+Results for genetic covariance between: SV.sumstats.gz and T2D.sumstats.gz
+Mean Z*Z: 0.0147
+Cross trait Intercept: 0.1868 (0.0613)
+Total Observed Scale Genetic Covariance (g_cov): -0.1786 (0.072)
+g_cov Z: -2.48
+g_cov P-value: 0.013174
+          
+Estimating heritability [78/78] for: T2D.sumstats.gz
+Heritability Results for trait: T2D.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.4484
+Lambda GC: 1.2834
+Intercept: 0.8812 (0.0804)
+Ratio: -0.265 (0.1794)
+Total Observed Scale h2: 0.1806 (0.048)
+h2 Z: 3.76
+Your genetic covariance matrix includes traits estimated to have a negative heritability.
+Genetic correlation results could not be computed due to negative heritability estimates.
+     
+LDSC finished running at 2024-05-19 20:21:33.141463
+Running LDSC for all files took 0 minutes and 22 seconds
+     

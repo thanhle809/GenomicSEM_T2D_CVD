@@ -1,0 +1,5 @@
+# ignore the data folder
+data
+doc
+.RData
+.Rhistory
