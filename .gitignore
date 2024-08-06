@@ -1,5 +1,8 @@
 # ignore the data folder
+results
+archive
 data
 doc
 .RData
 .Rhistory
+.Rproj.user
